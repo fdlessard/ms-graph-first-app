@@ -16,7 +16,8 @@ public class Authentication {
   private static String applicationId;
   // Set authority to allow only organizational accounts
   // Device code flow only supports organizational accounts
-  private final static String authority = "https://login.microsoftonline.com/common/";
+  //private final static String authority = "https://login.microsoftonline.com/common/";
+  private final static String authority = "https://login.microsoftonline.com/a805eb36-3833-4902-88c2-5cb74b2cbcbf/oauth2/v2.0/authorize";
 
   public static void initialize(String applicationId) {
     Authentication.applicationId = applicationId;
